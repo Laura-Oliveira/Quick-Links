@@ -1,2 +1,15 @@
 # Facilita_Ae
-Aplicativo mobile que têm por finalidade armazenar as lojas online favoritas do usuário
+Aplicativo mobile para listar suas lojas online favoritas!
+
+## Tecnologias
+ - Kotlin;
+ - Arquitetura MVVM;
+ - Material Design;
+ - Firebase Database;
+ - Gradle;
+
+## Ferramentas
+ - Android Studio;
+ - Figma;
+ - Git/Github;
+ - Metodologia Ágil: Kanban.
