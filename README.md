@@ -1,14 +1,14 @@
 # Facilita_Ae
 Aplicativo mobile para listar suas lojas online favoritas!
 
-## Tecnologias
+## Technologies
  - Kotlin;
  - Arquitetura MVVM;
  - Material Design;
  - Firebase Database;
  - Gradle;
 
-## Ferramentas
+## Tools
  - Android Studio;
  - Figma;
  - Git/Github;
