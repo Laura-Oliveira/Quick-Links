@@ -1,5 +1,6 @@
 # Facilita_Ae
-Aplicativo mobile para listar suas lojas online favoritas!
+
+Mobile app to list your favorites shops in the world!
 
 ## Technologies
  - Kotlin;
