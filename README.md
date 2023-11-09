@@ -1,4 +1,4 @@
-# Facilita_Ae
+# FavE-Stores
 
 Mobile app to list your favorites shops in the world!
 
