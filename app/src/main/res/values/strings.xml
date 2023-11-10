@@ -1,3 +1,52 @@
 <resources>
     <string name="app_name">FavE-Stores</string>
+
+    <!-- ==================== activity_login ==================== -->
+    <string name="txt_description_image"> Icon that represents the brand app</string>
+    <string name="hint_username"> E-mail </string>
+    <string name="hint_password"> Password </string>
+    <string name="btn_login"> Login </string>
+    <string name="btn_register">Register </string>
+
+    <!-- ==================== activity_register_user ==================== -->
+    <string name="register_user_type">Qual tipo de perfil você deseja criar?</string>
+
+    <!-- ==================== activity_register_user ==================== -->
+    <string name="register_username_title">Register User </string>
+    <string name="radio_btn_user">Usuário(a)</string>
+    <string name="radio_btn_worker">Trabalhadora</string>
+    <string name="hint_register_username"> Name</string>
+    <string name="hint_register_email"> E-mail </string>
+    <string name="hint_register_phone"> Phone </string>
+    <string name="hint_register_password"> Password </string>
+
+    <!-- ==================== activity_register_service ==================== -->
+    <string name="register_service_title"> Cadastrar Serviço</string>
+    <string name="register_service_name"> Qual Serviço Você quer Cadastrar? </string>
+    <string name="register_service_price"> Qual o Valor do Serviço?  </string>
+    <string name="register_service_price_ticket"> Qual o Preço da Passagem?</string>
+    <string name="register_service_mobility"> Pode ir na Casa da Pessoa Fazer o Serviço?</string>
+    <string name="register_service_radio_yes"> Sim</string>
+    <string name="register_service_radio_no">Não</string>
+    <string name="register_service_type_contact"> Onde Deseja Receber Contato das Clientes?</string>
+    <string name="register_service_radio_whatsapp"> WhatsApp</string>
+    <string name="register_service_radio_email"> Email</string>
+
+    <!-- Checkbox -->
+    <string name="check_cabeleleira">Cabelereira</string>
+    <string name="check_manicure">Manicure</string>
+    <string name="check_pinta_cabelo"> Pinta cabelo</string>
+    <string name="check_cozinheira">Cozinheira</string>
+    <string name="check_boleira">Boleira - doces e salgados</string>
+    <string name="check_faz_pizza"> Faz pizza</string>
+    <string name="check_almoco"> Faz almoço</string>
+
+    <!-- Buttons-->
+    <string name="btn_register_service">Cadastrar</string>
+
+    <!-- ==================== activity_profile ==================== -->
+    <string name="profile_title"> Profile </string>
+    <string name="profile_label_data"> Personal Data </string>
+    <string name="profile_label_service"> Services </string>
+    <string name="profile_label_type_contact"> Contract Type</string>
 </resources>
