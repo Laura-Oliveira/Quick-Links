@@ -1,6 +1,6 @@
-# FavE-Stores
+# Links Pro
 
-Mobile app to list your favorites shops in the world!
+Mobile app to save your favorites websites in the world!
 
 ## Technologies
  - Kotlin;
