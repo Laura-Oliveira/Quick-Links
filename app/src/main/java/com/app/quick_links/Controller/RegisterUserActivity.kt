@@ -20,7 +20,6 @@ class RegisterUserActivity : AppCompatActivity()
 {
     /* Get firebase database instance */
     private lateinit var databaseInstance: DatabaseReference
-    private lateinit var auth: FirebaseAuth
     private lateinit var firebaseAuth: FirebaseAuth
 
     private lateinit var editText_email: EditText
@@ -30,7 +29,9 @@ class RegisterUserActivity : AppCompatActivity()
     private lateinit var password: String
 
     private lateinit var btnRegisterUser: Button
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?)
+    {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register_user)
         /*
@@ -38,11 +39,9 @@ class RegisterUserActivity : AppCompatActivity()
             The FirebaseAuth is initialize as a part of the packge of the
             Firebase
          */
-        // Initialize Firebase
         try {
             // Initialize Firebase
             FirebaseApp.initializeApp(this)
-
             // Get instances of FirebaseAuth and FirebaseDatabase
             firebaseAuth = FirebaseAuth.getInstance()
             databaseInstance = FirebaseDatabase.getInstance().reference
@@ -86,7 +85,7 @@ class RegisterUserActivity : AppCompatActivity()
         databaseReference.push().key?.let { userApp.setId(it) }
 
         /* Data transfered from object to Firebase database */
-        userApp.getId()?.let {
+        userApp.getId().let {
             databaseReference.child("user-collection").child(it).setValue(userApp)
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful)
@@ -108,7 +107,7 @@ class RegisterUserActivity : AppCompatActivity()
 
     fun registerUserAuth(email:String, password: String)
     {
-        auth.createUserWithEmailAndPassword(email, password)
+        firebaseAuth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful)
                 {

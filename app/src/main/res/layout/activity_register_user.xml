@@ -80,7 +80,6 @@
         android:id="@+id/btn_register_user"
         style="@style/Button"
         android:layout_alignParentBottom="true"
-        android:onClick="registerUserAuth"
         android:text="@string/btn_register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
