@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FavE-Stores</string>
+    <string name="app_name">Quick Links</string>
 
     <!-- ==================== activity_login ==================== -->
     <string name="txt_description_image"> Icon that represents the brand app</string>

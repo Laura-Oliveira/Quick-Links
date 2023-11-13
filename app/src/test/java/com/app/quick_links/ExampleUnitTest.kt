@@ -1,4 +1,4 @@
-package com.app.fave_stores
+package com.app.quick_links
 
 import org.junit.Test
 

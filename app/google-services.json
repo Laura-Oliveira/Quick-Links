@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "489351074473",
+    "project_id": "quick-links-cd8a7",
+    "storage_bucket": "quick-links-cd8a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489351074473:android:895471f0ca8ec57f69cfb8",
+        "android_client_info": {
+          "package_name": "com.app.quick_links"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVZLOciVuSSein3Ci4JlEr2yQz-N-RjEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

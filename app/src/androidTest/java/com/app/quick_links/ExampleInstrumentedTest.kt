@@ -1,4 +1,4 @@
-package com.app.fave_stores
+package com.app.quick_links
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

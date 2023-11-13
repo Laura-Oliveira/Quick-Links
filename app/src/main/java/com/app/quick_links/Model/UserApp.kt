@@ -1,4 +1,4 @@
-package com.app.fave_stores.Model
+package com.app.quick_links.Model
 
 public class UserApp
 {

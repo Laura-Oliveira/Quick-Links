@@ -1,15 +1,15 @@
-
-package com.app.fave_stores.View
+package com.app.quick_links.View
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.app.fave_stores.R
 import android.content.Intent
 import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.app.quick_links.Controller.RegisterUserActivity
+import com.app.quick_links.R
 import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 
@@ -28,25 +28,25 @@ class LoginActivity : AppCompatActivity()
     {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        /*
+           FirebaseApp.initializeApp(this)
+           firebaseAuth = FirebaseAuth.getInstance()
 
-        FirebaseApp.initializeApp(this)
-        firebaseAuth = FirebaseAuth.getInstance()
+           emailEditText = findViewById(R.id.edit_text_login_email)
+           passwordEditText = findViewById(R.id.edit_text_login_password)
+           btnLogin = findViewById(R.id.btn_login)
 
-        emailEditText = findViewById(R.id.edit_text_login_email)
-        passwordEditText = findViewById(R.id.edit_text_login_password)
-        btnLogin = findViewById(R.id.btn_login)
+           btnLogin.setOnClickListener {
+               txt_email = emailEditText.text.toString()
+               txt_password = passwordEditText.text.toString()
 
-        btnLogin.setOnClickListener {
-            txt_email = emailEditText.text.toString()
-            txt_password = passwordEditText.text.toString()
-
-            if ((txt_email.isNotEmpty() || txt_email.isNotBlank()) && (txt_password.isNotEmpty() || txt_password.isNotBlank()))
-            {
-                loginUser(txt_email, txt_password)
-            }
-            else
-            { Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show() }
-        }
+               if ((txt_email.isNotEmpty() || txt_email.isNotBlank()) && (txt_password.isNotEmpty() || txt_password.isNotBlank()))
+               {
+                   loginUser(txt_email, txt_password)
+               }
+               else
+               { Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show() }
+           } */
     }
 
 
