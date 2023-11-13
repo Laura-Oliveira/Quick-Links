@@ -1,4 +1,4 @@
-# Links Pro
+# Quick Links
 
 Mobile app to save your favorites websites in the world!
 
