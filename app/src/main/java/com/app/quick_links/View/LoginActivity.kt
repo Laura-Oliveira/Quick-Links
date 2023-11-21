@@ -27,31 +27,29 @@ class LoginActivity : AppCompatActivity()
     override fun onCreate(savedInstanceState: Bundle?)
     {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        /*
-           FirebaseApp.initializeApp(this)
-           firebaseAuth = FirebaseAuth.getInstance()
+        setContentView(R.layout.activity_login)
 
-           emailEditText = findViewById(R.id.edit_text_login_email)
-           passwordEditText = findViewById(R.id.edit_text_login_password)
-           btnLogin = findViewById(R.id.btn_login)
+        FirebaseApp.initializeApp(this)
+        firebaseAuth = FirebaseAuth.getInstance()
 
-           btnLogin.setOnClickListener {
-               txt_email = emailEditText.text.toString()
-               txt_password = passwordEditText.text.toString()
+        emailEditText = findViewById(R.id.edit_text_login_email)
+        passwordEditText = findViewById(R.id.edit_text_login_password)
+        btnLogin = findViewById(R.id.btn_login)
 
-               if ((txt_email.isNotEmpty() || txt_email.isNotBlank()) && (txt_password.isNotEmpty() || txt_password.isNotBlank()))
-               {
-                   loginUser(txt_email, txt_password)
-               }
-               else
-               { Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show() }
-           } */
+        btnLogin.setOnClickListener {
+            txt_email = emailEditText.text.toString()
+            txt_password = passwordEditText.text.toString()
+
+            if ((txt_email.isNotEmpty() || txt_email.isNotBlank()) && (txt_password.isNotEmpty() || txt_password.isNotBlank()))
+            {
+                loginUser(txt_email, txt_password)
+            }
+            else
+            { Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show() }
+        }
     }
 
-
-/* Authentication with users registered directed on the app */
-
+    /* Authentication with users registered directed on the app */
     private fun loginUser(email: String, password: String)
     {
         if (email.isNotEmpty() && password.isNotEmpty())
@@ -59,7 +57,7 @@ class LoginActivity : AppCompatActivity()
             firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener{
                 if (it.isSuccessful)
                 {
-                    val intent = Intent(this, RegisterUserActivity::class.java)
+                    val intent = Intent(this, LoginActivity::class.java)
                     Toast.makeText(this, "Login Sucsessful!", Toast.LENGTH_SHORT).show()
                     startActivity(intent)
                     finish()
